@@ -15,7 +15,7 @@ Em uma situação em que o corpo do loop deve ser executado pelo menos uma vez, 
 #### 5 - Códigos corrigidos: 
 a)
 ```
-for (int i = 100; i >= 1; i++)
+for (int i = 100; i >= 1; i--)
     System.out.println(i);
 ```
 b)
@@ -31,9 +31,8 @@ switch (value % 2) {
 ```
 c)
 ```
-for (int i = 19; i >= 1; i -= 2) {
+for (int i = 19; i >= 1; i -= 2) 
     System.out.println(i);
-}
 ```
 d)
 ```
@@ -51,7 +50,7 @@ public class Printing {
             for(int j = 1; j<=5; j++){
                 System.out.print('@');
             }
-            System.outprintln();
+            System.out.println();
         }
     }
 }
